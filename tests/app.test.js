@@ -29,7 +29,7 @@ describe("Application API", () => {
     
     test("divide endpoint calculates correctly", async () => {
         const response = await request(app)
-            .get("/api/add?a=20&b=2");
+            .get("/api/divide?a=20&b=2");
 
         expect(response.statusCode).toBe(200);
         expect(response.body.result).toBe(10);
