@@ -143,7 +143,6 @@ pipeline {
             echo 'PIPELINE SUCCESSFUL'
         }
 
-        
 
         failure {
             echo 'PIPELINE FAILED - deployment was blocked'
