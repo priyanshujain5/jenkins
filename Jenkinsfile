@@ -140,12 +140,12 @@ pipeline {
     post {
 
         success {
-            echo 'PIPELINE SUCCESSFUL'
+            echo 'PIPELINE SUCCESSFUL EXECUTED'
         }
 
 
         failure {
-            echo 'PIPELINE FAILED - deployment was blocked'
+            echo 'PIPELINE FAILED - PIPLELINE CHOCKED'
         }
     }
 }
