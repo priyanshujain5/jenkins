@@ -2,7 +2,8 @@ const {
     add,
     subtract,
     calculateDiscount,
-    multiply
+    multiply,
+    divide
 } = require("../src/math");
 
 describe("Math utilities", () => {
@@ -13,6 +14,10 @@ describe("Math utilities", () => {
 
     test("subtracts two numbers", () => {
         expect(subtract(10, 4)).toBe(6);
+    });
+
+    test("divide two numbers", () => {
+        expect(divide(10, 5)).toBe(2);
     });
 
     test("calculates discount correctly", () => {
